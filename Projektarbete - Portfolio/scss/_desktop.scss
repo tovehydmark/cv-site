@@ -1,0 +1,196 @@
+/*
+***
+* STYLES FOR DESKTOP VERSION. 
+***
+*   Header
+*   Landing page
+*   Previous projects
+*   About
+*   Contact
+*   Footer
+*/
+
+//Header
+.hamburger {
+    top: 3vh;
+}
+
+header .fa-envelope {
+    top: 3vh;
+}
+
+main {
+    padding-top: 65px;
+}
+
+//Landing page
+.landing-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    .styling-for-laptop {
+        width: 80%;
+        position: relative;
+        .i-do-positioning {
+            position: absolute;
+            display: inline-block;
+            top: 240px;
+            left: 0;
+            font-size: 3.2rem;
+        }
+        .f-e-d-positioning {
+            position: absolute;
+            display: flex;
+            flex-wrap: nowrap;
+            left: 0;
+            top: 300px;
+            font-size: 3.2rem;
+        }
+        p {
+            position: absolute;
+            top: 380px;
+            text-align: right;
+        }
+    }
+    .landing-page-btn-for-desktop {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        button {
+            position: relative;
+            top: 300px;
+            left: 80%;
+            margin-bottom: 50px;
+            min-height: 5rem;
+            font-size: 1.6rem;
+            width: 25%;
+        }
+    }
+}
+
+//Previous projects  
+.previous-projects {
+    width: 100%;
+    margin-top: 160px;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    h2 {
+        text-align: start;
+        margin-bottom: -70px;
+        span {
+            display: block;
+        }
+    }
+}
+
+//Removed carousel and displayed the second set of images implemented for desktop style
+#carouselExampleIndicators {
+    display: none;
+}
+
+.previous-projects-desktop-layout {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    .images-for-desktop-layout {
+        //!important used as the images did not show up otherwise
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 70%;
+        position: relative;
+        figure {
+            margin-left: 2%;
+        }
+    }
+    .sample-paragraph {
+        width: 30%;
+        margin-left: 0;
+        margin-right: 5%;
+        margin-top: 100px;
+        text-align: start;
+    }
+}
+
+.view-my-portfolio {
+    position: relative;
+    width: 25%;
+    p {
+        font-size: 1.4rem;
+        position: absolute;
+        margin-top: 0px;
+        left: 0px;
+    }
+    button {
+        margin-left: 0;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+    }
+}
+
+//About
+.about-me {
+    h2 {
+        margin-top: 160px;
+        margin-bottom: 55px;
+    }
+    .about-me-sections {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+//CONTACT
+.contact {
+    margin-top: 120px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    h2 {
+        margin-bottom: 10px;
+    }
+    .wrapping-div-h2-and-img {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 13%;
+        margin-top: 40px;
+    }
+    form {
+        position: absolute;
+        right: 0;
+        width: 50%;
+        padding-top: 70px;
+    }
+    address {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 12%;
+        top: 250px;
+    }
+    .font-awesome-icons {
+        position: relative;
+        height: 3vh;
+        top: 95%;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+//FOOTER  
+footer {
+    position: absolute;
+    bottom: 0;
+}

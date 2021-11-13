@@ -1,0 +1,282 @@
+<!doctype html>
+<html class="no-js" lang="en-gb">
+
+<head>
+    <meta charset="utf-8">
+    <title>I am a front-end developer building great websites</title>
+    <meta name="description" content="I am a frontend developer building websites for all kinds of businesses. Please contact me with enquiries or other questions regarding web development!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Fyll i content i og-taggarna vid senare tillfälle-->
+    <meta property="og:title" content="Web developer Tove Hydmark. Hire if you want a great website.">
+    <meta property="og:type" content="website">
+    <!-- URL and image to be filled when I have published the page / when I have decided what image I want to have -->
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="theme-color" content="#fafafa">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/47380f962d.js" crossorigin="anonymous"></script>
+    <!-- Style sheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <a href="#form" aria-label="Go to email section"><i class="far fa-envelope focus-when-using-tab"
+                    tabindex="0"></i></a>
+            <figure class="th-logo">
+                <img src="img/logo-1.JPG" alt="Tove Hydmark logo" width=100 height=50>
+                <figcaption class="visually-hidden">Tove Hydmark</figcaption>
+            </figure>
+        </div>
+
+        <nav class="hamburger-menu" id="menu-button" tabindex="0">
+            <a href="#menu-button" class="hamburger focus-when-using-tab" aria-label="Open the menu">
+                <span class="hamburger-bar hamburger-bar-top" aria-hidden="true"></span>
+                <span class="hamburger-bar" aria-hidden="true"></span>
+                <span class="hamburger-bar hamburger-bar-bottom" aria-hidden="true"></span>
+            </a>
+
+            <nav class="menu-open">
+                <div>
+                    <a href="#" class="focus-when-using-tab">Previous Projects</a>
+                    <a href="#" class="focus-when-using-tab">Portfolio</a>
+                    <a href="#" class="focus-when-using-tab">About me</a>
+                    <a href="#" class="focus-when-using-tab">Contact and enquiries</a>
+                </div>
+            </nav>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Landing page -->
+
+        <section class="landing-page">
+            <div class="styling-for-laptop">
+                <h1> <span class="i-do-positioning">I DO</span>
+                    <span class="f-e-d-positioning">
+                        <span> FRONT&#8209;END&nbsp;</span> <span>DEVELOPMENT. </span>
+                    </span>
+                </h1>
+                <p>Let me help you build <br> your website</p>
+            </div>
+
+
+            <div class="landing-page-btn-for-desktop">
+                <button type="button" class="styled-button focus-when-using-tab" style="vertical-align: middle;">
+                    <span>Need a <br> new website?</span></button>
+
+                <button type="button" class="styled-button focus-when-using-tab" style="vertical-align: middle;">
+                    <span>Need help with <br> maintenance?</span></button>
+            </div>
+        </section>
+
+        <!-- Previous projects -->
+
+        <section class="previous-projects">
+            <h2><span>Explore my </span><span> previous projects</span></h2>
+
+            <!-- Bootstrap carousel -->
+            <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/space-ventures.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hälsans-trädgård.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/html-assignment.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/css-project.JPG" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </section>
+
+
+            <section class="previous-projects-desktop-layout">
+                <section class="images-for-desktop-layout">
+                    <figure><img src="img/space-ventures.JPG" alt="Example 1" width="300">
+                        <figcaption class="visually-hidden">First example of a previous project</figcaption>
+                    </figure>
+                    <figure><img src="img/hälsans-trädgård.JPG" alt="Example 2" width="300">
+                        <figcaption class="visually-hidden">Second example of a previous project</figcaption>
+                    </figure>
+                    <figure><img src="img/html-assignment.JPG" alt="Example 3" width="300">
+                        <figcaption class="visually-hidden">Third example of a previous project</figcaption>
+                    </figure>
+                    <figure><img src="img/css-project.JPG" alt="Example 4" width="300">
+                        <figcaption class="visually-hidden">Fourth example of a previous project</figcaption>
+                    </figure>
+                </section>
+
+                <p class="sample-paragraph">Here is a sample of my previous work. oy sauce salt miso butter roasted pork slices flavoured oil yuzu seasoned egg, abura soba Kumamoto corn Wakayama kamaboko sesame oil Nagoya Sapporo, Hakodate pork bones Nissin instant cup ramen rice
+                    bamboo slices Asahikawa. </p>
+            </section>
+
+            <div class="view-my-portfolio">
+                <p>Want to see more?</p>
+                <button type="button" class="styled-button focus-when-using-tab">View my portfolio</button>
+            </div>
+        </section>
+
+        <!-- About -->
+
+        <section class="about-me">
+            <h2>Learn more about me</h2>
+
+            <section class="about-me-sections">
+                <!-- Bootstrap used for this sections' extendable content -->
+                <div class="sections-flexbox">
+                    <h3>Skills</h3>
+
+                    <a class="btn focus-when-using-tab" data-bs-toggle="collapse" href="#collapse-1" role="button" aria-expanded="false" aria-controls="collapse-1">
+                        &#9947;
+                    </a>
+                </div>
+                <div class="collapse" id="collapse-1">
+                    <div class="card card-body">
+                        <p> This is a sample of my web development skills</p>
+                        <ul>
+                            <li>I am a future PRO of Java Script.</li>
+                            <li>I am great at using the tool "Google"</li>
+                            <li>I can create a HTML document and style it with CSS</li>
+                            <li>I am fashinated with SASS but am not able to use it as good as I would like to</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="about-me-sections">
+                <div class="sections-flexbox">
+                    <h3>Employments</h3>
+                    <a class="btn focus-when-using-tab" data-bs-toggle="collapse" href="#collapse-2" role="button" aria-expanded="false" aria-controls="collapse-2">
+                        &#9947;
+                    </a>
+                </div>
+                <div class="collapse" id="collapse-2">
+                    <div class="card card-body">
+                        <p> This is a sample of my previous employments</p>
+                        <ul>
+                            <li>Chef at Regnbågens waldorfförskola, 2020-2021</li>
+                            <li>Assistant store manager, Cancer Research UK, 2020</li>
+                            <li>Waitress at R&H cafe gallery, 2018-2019</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="about-me-sections">
+                <div class="sections-flexbox">
+                    <h3>Education</h3>
+                    <a class="btn focus-when-using-tab" data-bs-toggle="collapse" href="#collapse-3" role="button" aria-expanded="false" aria-controls="collapse-3">
+                        &#9947;
+                    </a>
+                </div>
+                <div class="collapse" id="collapse-3">
+                    <div class="card card-body">
+                        <p>This is a sample of my education</p>
+                        <ul>
+                            <li>Front-end development at Medieinstitutet, 2021-2023</li>
+                            <li>War studies at Swedish Defence University, 2020-2021</li>
+                            <li>Philisophy and culture studies at Charles University, 2017</li>
+                            <li>Peace and conflict studies at Uppsala University, 2016-2019</li>
+                            <li>Psychology at Stockholm University, 2016</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Contact -->
+
+        <section class="contact">
+            <div class=wrapping-div-h2-and-img>
+                <h2>Contact</h2>
+                <figure>
+                    <img src="img/cropped-me.png" alt="Picture of me" width=100 height=100>
+                    <figcaption class="visually-hidden">Profile picture of Tove Hydmark</figcaption>
+                </figure>
+            </div>
+
+            <form id="form">
+                <label for="your-name" aria-label="Type your name"></label><br>
+                <input type="text" id="your-name" name="name" placeholder="Your name:" class="focus-when-using-tab">
+                <br>
+                <label for="your-email" aria-label="Type your email"></label><br>
+                <input type="email" id="your-email" name="email" placeholder="Your email:" class="focus-when-using-tab" required> <br>
+
+                <label for="message-base"></label><br>
+                <textarea id="message-base" class="textarea-for-mobile focus-when-using-tab" name="message" rows="10" cols="25" placeholder="Type your message here..." aria-label="Type your message" tabindex=0></textarea><br>
+
+                <!-- Have implemented two textareas as I want the size to change dependent on screen width using mediaqueries -->
+                <label for="message-tablet"></label><br>
+                <textarea id="message-tablet" class="textarea-for-larger-screen focus-when-using-tab" name="message" rows="10" cols="45" placeholder="Type your message here..." aria-label="Type your message" tabindex=0></textarea><br>
+
+                <input type="submit" value="submit" class="styled-button focus-when-using-tab">
+            </form>
+
+            <address>
+                <p>Or give me a call on:</p>
+                <a href="tel:+46731589793" class="focus-when-using-tab"> +46 731 589 793</a>
+            </address>
+
+            <div class="font-awesome-icons">
+                <span> <a href="https://www.linkedin.com/in/tove-hydmark/
+                " target="_blank" aria-label="Follow this link to go to Tove's LinkedIn profile in another tab"
+                        class="focus-when-using-tab"><i class="fab fa-linkedin"></i></a> </span>
+                <span> <a href="https://github.com/tovehydmark" target="_blank"
+                        aria-label="Follow this link to go to Tove's Github profile in another tab"
+                        class="focus-when-using-tab"><i class="fab fa-git-square"></i></a> </span>
+                <span> <a href="https://www.facebook.com/tove.hydmark/" target="_blank"
+                        aria-label="Follow this link to go to Tove's Facebook profile in another tab"
+                        class="focus-when-using-tab">
+                        <i class="fab fa-facebook-square"></i></a> </span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <p>Tove Hydmark©</p>
+        <button type="button" class="styled-button focus-when-using-tab">To the top </button>
+    </footer>
+
+
+    <script>
+        const menuBtn = document.querySelector('#menu-button');
+        menuBtn.addEventListener('click', () => {
+            menuBtn.classList.toggle('menu-open');
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
