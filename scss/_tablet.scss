@@ -1,0 +1,72 @@
+/*
+***
+* STYLES FOR TABLET VERSION. 
+***
+*   Landing page
+*   Previous projects
+*   Contact
+*/
+
+//Landnig page
+.landing-page {
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 100px;
+    }
+    p {
+        font-size: 2rem;
+    }
+    button {
+        width: 30%;
+        min-height: 4rem;
+        font-size: 100%;
+    }
+}
+
+//Previous projects
+.previous-projects {
+    margin-right: 15%;
+    margin-left: 15%;
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 70px;
+    }
+    .sample-paragraph {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.view-my-portfolio {
+    justify-content: center;
+    margin-top: 25px;
+}
+
+//Contact
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    h2 {
+        font-size: 2rem;
+    }
+    form {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .favicons {
+        .fab {
+            font-size: 2rem;
+            padding: 30px 10px 15px;
+        }
+    }
+}
+
+//Change of textareas to fit the screen
+.textarea-for-mobile {
+    display: none;
+}
+
+.textarea-for-larger-screen {
+    display: block !important;
+    //!important used as the textarea did not show up in any other way
+}
