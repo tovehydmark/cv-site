@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>I am a front-end developer building great websites</title>
-    <meta name="description" content="I am a frontend developer building websites for all kinds of businesses. Please contact me with enquiries or other questions regarding web development!">
+    <meta name="description"
+        content="I am a frontend developer building websites for all kinds of businesses. Please contact me with enquiries or other questions regarding web development!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Fyll i content i og-taggarna vid senare tillfälle-->
     <meta property="og:title" content="Web developer Tove Hydmark. Hire if you want a great website.">
@@ -19,13 +20,16 @@
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/47380f962d.js" crossorigin="anonymous"></script>
     <!-- Style sheets -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="scss/style.css">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lora:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -90,10 +94,14 @@
             <!-- Bootstrap carousel -->
             <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -109,11 +117,13 @@
                         <img src="img/css-project.JPG" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -136,13 +146,16 @@
                     </figure>
                 </section>
 
-                <p class="sample-paragraph">Here is a sample of my previous work. oy sauce salt miso butter roasted pork slices flavoured oil yuzu seasoned egg, abura soba Kumamoto corn Wakayama kamaboko sesame oil Nagoya Sapporo, Hakodate pork bones Nissin instant cup ramen rice
+                <p class="sample-paragraph">Here is a sample of my previous work. oy sauce salt miso butter roasted pork
+                    slices flavoured oil yuzu seasoned egg, abura soba Kumamoto corn Wakayama kamaboko sesame oil Nagoya
+                    Sapporo, Hakodate pork bones Nissin instant cup ramen rice
                     bamboo slices Asahikawa. </p>
             </section>
 
-            <div class="view-my-portfolio">
+            <div class="view-my-portfolio" id="viewMyGithubRepos">
                 <p>Want to see more?</p>
-                <button type="button" class="styled-button focus-when-using-tab">View my portfolio</button>
+                <button type="button" class="styled-button focus-when-using-tab" id="githubReposBtn">View github
+                    repos</button>
             </div>
         </section>
 
@@ -156,7 +169,8 @@
                 <div class="sections-flexbox">
                     <h3>Skills</h3>
 
-                    <a class="btn focus-when-using-tab" data-bs-toggle="collapse" href="#collapse-1" role="button" aria-expanded="false" aria-controls="collapse-1">
+                    <a class="btn focus-when-using-tab" data-bs-toggle="collapse" href="#collapse-1" role="button"
+                        aria-expanded="false" aria-controls="collapse-1">
                         &#9947;
                     </a>
                 </div>
@@ -175,7 +189,8 @@
             <section class="about-me-sections">
                 <div class="sections-flexbox">
                     <h3>Employments</h3>
-                    <a class="btn focus-when-using-tab" data-bs-toggle="collapse" href="#collapse-2" role="button" aria-expanded="false" aria-controls="collapse-2">
+                    <a class="btn focus-when-using-tab" data-bs-toggle="collapse" href="#collapse-2" role="button"
+                        aria-expanded="false" aria-controls="collapse-2">
                         &#9947;
                     </a>
                 </div>
@@ -193,7 +208,8 @@
             <section class="about-me-sections">
                 <div class="sections-flexbox">
                     <h3>Education</h3>
-                    <a class="btn focus-when-using-tab" data-bs-toggle="collapse" href="#collapse-3" role="button" aria-expanded="false" aria-controls="collapse-3">
+                    <a class="btn focus-when-using-tab" data-bs-toggle="collapse" href="#collapse-3" role="button"
+                        aria-expanded="false" aria-controls="collapse-3">
                         &#9947;
                     </a>
                 </div>
@@ -228,14 +244,19 @@
                 <input type="text" id="your-name" name="name" placeholder="Your name:" class="focus-when-using-tab">
                 <br>
                 <label for="your-email" aria-label="Type your email"></label><br>
-                <input type="email" id="your-email" name="email" placeholder="Your email:" class="focus-when-using-tab" required> <br>
+                <input type="email" id="your-email" name="email" placeholder="Your email:" class="focus-when-using-tab"
+                    required> <br>
 
                 <label for="message-base"></label><br>
-                <textarea id="message-base" class="textarea-for-mobile focus-when-using-tab" name="message" rows="10" cols="25" placeholder="Type your message here..." aria-label="Type your message" tabindex=0></textarea><br>
+                <textarea id="message-base" class="textarea-for-mobile focus-when-using-tab" name="message" rows="10"
+                    cols="25" placeholder="Type your message here..." aria-label="Type your message"
+                    tabindex=0></textarea><br>
 
                 <!-- Have implemented two textareas as I want the size to change dependent on screen width using mediaqueries -->
                 <label for="message-tablet"></label><br>
-                <textarea id="message-tablet" class="textarea-for-larger-screen focus-when-using-tab" name="message" rows="10" cols="45" placeholder="Type your message here..." aria-label="Type your message" tabindex=0></textarea><br>
+                <textarea id="message-tablet" class="textarea-for-larger-screen focus-when-using-tab" name="message"
+                    rows="10" cols="45" placeholder="Type your message here..." aria-label="Type your message"
+                    tabindex=0></textarea><br>
 
                 <input type="submit" value="submit" class="styled-button focus-when-using-tab">
             </form>
@@ -275,8 +296,9 @@
         });
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
