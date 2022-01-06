@@ -221,9 +221,23 @@ main {
 #githubReposSection {
     margin-top: 50px;
     display: block;
-    height: 50px;
+    
     width: 100%;
-    background-color: #173d36;
+    background-color: #2a4e48;
+
+    a {
+       text-decoration: underline;
+       color: white;
+       
+
+       div {
+           padding: 10px;
+        border: 2px white solid;
+        text-align: center;
+    }
+    }
+
+    
 }
 
 
